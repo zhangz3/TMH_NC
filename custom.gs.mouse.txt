@@ -1,0 +1,11 @@
+CD4+ T cell		Il7r	Tnfrsf4	Tnfrsf9	Cd40lg	Il2ra	Cd27	Btla	Icos	Cd28	Cd3d	Cd3e	Cd3g	Cd4	Cd44	Cd5	Sell	Sele	Selp	Cd69	Cd7	Ctla4	Pdcd1	Ptprc	Igfbp4	Tcf7	Trbc2
+T reg cell		Il2ra	Cd3d	Cd3e	Cd3g	Cd4	Ptprc	Nrp1	Foxp3
+CD8+ T cell		Cd27	Cd28	Cd3d	Cd3e	Cd3g	Cd5	Cd8a	Cd8a	Cd8b1	Nkg7	Ccl5	Cd8a	Cd8b1	Tcf7	Trbc2
+B cell		Fcrla	Vpreb1	Cd19	Ptprc	Spn	Il7r	Cr2	Cd22	Fcer2a	Cd40lg
+M1 marker		Cd80	Cd86	Cd36	Cd68	Cxcl9	Cxcl10	Fcgr2b	Ifng	Ifngr1	Il1b	Il6	Il12b	Il15	Il17a	Il18	Il23a	Irf5	H2-D1	Nos2	Stat1	Tnf	Cd38	H2-Eb1	H2-T3	H2-K1
+M2 marker		Csf1r	Mrc1	Pparg	Arg1	Cd163	Clec10a	Pdcd1lg2	Retnla	Ccl22	Il10	Il4	Irf4	Pdgfb	Chil3	H2-D1	Stat3	H2-T3	H2-K1
+General Macrophage		Adgre1	Cd14	Cd68	Ly6c1	Cx3cr1	Fcgr1	Itgam	Mertk	Msr1	Cd80	Cd86	Cd36	Cd68	Cxcl9	Cxcl10	Fcgr2b	Ifng	Ifngr1	Il1b	Il6	Il12b	Il15	Il17a	Il18	Il23a	Irf5	H2-D1	Nos2	Stat1	Tnf	Cd38	Csf1r	Mrc1	Pparg	Arg1	Cd163	Clec10a	Pdcd1lg2	Retnla	Ccl22	Il10	Il4	Irf4	Pdgfb	Chil3	H2-D1	H2-K1
+MDSCs		Itgam	Ly6g	Il4ra	Csf1r	Arg1	Csf1r	Kit	Ifngr1	Itgam	Itgax	Il2rb	Il3ra	Il6ra	Il7r	Anpep	Cd14	Thbd	Cd40lg	Fcgr3	Siglecf	Cxcr2	Cd19	Ccr2	Ccr3	Ccr4	Cd1d1	Enpp3	Mrc1	Il18r1	Fcer2a	Cd24a	Pdcd1lg2	Tlr2	Tlr4	Ptgdr2	Pecam1	Cdh1	Cd33	Cd34	Cr2	Tnfrsf18	Cd38	Cd40	Itga2b	Spn	Cd44	Ptprc	Ptprc	Itga2	Sell	Fcgr1	Cd68	Cd69	Cd80	Cd84	Cd86	Plaur	Cd9	Thy1	Cd93	Cx3cr1	Adgre1	Fcer1a	Flt3	Il1r1	Il1r2	Il1r1	Il1r2	Nos2	Ly6c1	Ly6g	Ly6a	Siglecf
+NK cell		Fcgr4	Ncam1	Klrd1	Kir3dl2	Ncr1	Klrb1c	Itga1	Cxcr6	Itgax	Itgae	Kit	Ifngr1	Il2rb	Il7r	Fcgr3	Cd160	Klrb1	Klrb1b	Klrb1c	Cxcr2	Cxcr3	Ccr6	Cd1d1	Cd2	Il12rb1	Pecam1	Klrk1	Slamf7	Ncr1	Cd34	Cd44	Ptprc	Ptprc	Ptprc	Ptprc	Itga2	B3gat1	Cd69	Plaur	Thy1	Klrd1	Cd96	Cx3cr1	Flt3	Klrg1	Zbtb16	Rorc	Ly6a	Il1rl1
+Fibroblast		Col1a2	Col3a1	Fbln2	Fstl1	Gsn	Mmp2	Sparc
+T cell		Il7r	Tnfrsf4	Tnfrsf9	Cd40lg	Il2ra	Cd27	Btla	Icos	Cd28	Cd3d	Cd3e	Cd3g	Cd4	Cd44	Cd5	Sell	Sele	Selp	Cd69	Cd7	Ctla4	Pdcd1	Ptprc	Igfbp4	Tcf7	Trbc2	Il2ra	Cd3d	Cd3e	Cd3g	Cd4	Ptprc	Nrp1	Foxp3	Cd27	Cd28	Cd3d	Cd3e	Cd3g	Cd5	Cd8a	Cd8a	Cd8b1	Nkg7	Ccl5	Cd8a	Cd8b1	Tcf7	Trbc2
