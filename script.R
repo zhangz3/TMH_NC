@@ -492,7 +492,11 @@ g<-ggplot(ratio_df2,aes(seurat_clusters,value*100,color=variable))+
 		cex=0.3,dodge.width=0.5,size=0.1,show.legend=T,position=position_dodge2()
 	)
 tmp<-ggplot_build(g)
-yrange<-tmp$layout$panel_scales_y[[1]]$range$range
+if(packageVersion("ggplot2")>'2.2.1.9000')
+	yrange<-tmp$layout$panel_scales_y[[1]]$range$range
+else
+	yrange<-tmp$layout$panel_ranges[[1]]$y.range
+
 yrange[2]<-yrange[2]+5
 yrange[1]<-yrange[1]-2
 xmin=seq(0.5,by=1,length=13)
