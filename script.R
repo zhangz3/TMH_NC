@@ -338,6 +338,17 @@ ggplot(subset(test4,Sample=="Parental"),aes(x=row,y=col))+
 	scale_fill_discrete(guide=NULL)#+guides(fill=guide_legend(nrow=2))
 dev.off()
 
+pdf("Dimreduction.merged.v2.pdf",width=3.5,height=3)
+DimPlot(merged, reduction = "tsne", pt.size=0.001,label = False, 
+	cells=colnames(subset(merged,Sample=="MTF")))+
+	ggtitle(NULL)+xlim(c(-38,32))+ylim(c(-45,35))+
+	scale_color_discrete(drop=FALSE)
+DimPlot(merged, reduction = "tsne", pt.size=0.001,label = False, 
+	cells=colnames(subset(merged,Sample=="Parental")))+
+	ggtitle(NULL)+xlim(c(-38,32))+ylim(c(-45,35))+
+	scale_color_discrete(drop=FALSE)
+dev.off()
+
 ###
 merged.markers <- FindAllMarkers(merged, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
 tmp <- merged.markers %>% group_by(cluster)
