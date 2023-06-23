@@ -100,7 +100,7 @@ createSO<-function(path="MTF"){
 	so$perc_rs <- PercentageFeatureSet(so, pattern = "^R(p|P)(s|l|S|L)\\d+")
 	so$perc_hb <- PercentageFeatureSet(so, pattern = "^Hb.*-")
 	#
-	read.table("/opt/tools/spaceranger-1.3.1/lib/python/cellranger/barcodes/visium-v1_coordinates.txt",row.names=1)->coord
+	read.table("visium-v1_coordinates.txt",row.names=1)->coord
 	rownames(coord)<-paste(rownames(coord),1,sep="-")
 	colnames(coord)<-c("row","col")
 	so$row<-coord[colnames(so),"row"]
